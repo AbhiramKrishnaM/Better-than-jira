@@ -11,17 +11,42 @@
     <div class="mt-8">
         <h6 class="text-slate-900/70 px-8 text-base font-medium">Menu</h6>
 
-        <ul>
-            <li class="py-2 px-8  cursor-pointer text-gray-500/70">My Tasks</li>
-            <li class="py-2 px-8  cursor-pointer text-gray-500/70">Inbox</li>
-            <li class="py-2 px-8  cursor-pointer text-gray-500/70">Projects</li>
-            <li class="py-2 px-8  cursor-pointer text-gray-500/70">Standups</li>
-            <li class="py-2 px-8  cursor-pointer text-gray-500/70">Meetings</li>
-            <li class="py-2 px-8  cursor-pointer text-gray-500/70">Settings</li>
+        <ul class="mt-1 flex flex-col gap-2">
+            <li class="py-3  px-8   cursor-pointer  text-gray-500/70 flex items-center gap-3">
+                <Inbox />
+                My Tasks
+            </li>
+            <li class="py-3  px-8   cursor-pointer  text-gray-500/70 flex items-center gap-3">
+        <Message />
+                Inbox
+            </li>
+            <li class="py-3  px-8   cursor-pointer  text-gray-500/70 flex items-center gap-3">
+                <Work />
+                Projects
+            </li>
+            <li class="py-3  px-8   cursor-pointer  text-gray-500/70 flex items-center gap-3">
+                <Time/> Standups</li>
+            <li class="py-3  px-8   cursor-pointer  text-gray-500/70 flex items-center gap-3">
+                <Calendar/>
+                Meetings</li>
+            <li class="py-3  px-8   cursor-pointer  text-gray-500/70 flex items-center gap-3">
+                <Settings/>
+                Settings</li>
 
         </ul>
     </div>
    
 </nav>
 
+
+<script>
+import Inbox from '@/static/icons/inbox.svelte'
+import Message from "@/static/icons/message.svelte"
+import Work from "@/static/icons/work.svelte"
+
+import Time from "@/static/icons/time.svelte"
+import Calendar from "@/static/icons/calendar.svelte"
+import Settings from "@/static/icons/settings.svelte"
+
+</script>
 
