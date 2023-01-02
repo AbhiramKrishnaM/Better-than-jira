@@ -40,12 +40,17 @@
 
 
 <script>
+// @ts-ignore
 import Inbox from '@/static/icons/inbox.svelte'
+// @ts-ignore
 import Message from "@/static/icons/message.svelte"
+// @ts-ignore
 import Work from "@/static/icons/work.svelte"
-
+// @ts-ignore
 import Time from "@/static/icons/time.svelte"
+// @ts-ignore
 import Calendar from "@/static/icons/calendar.svelte"
+// @ts-ignore
 import Settings from "@/static/icons/settings.svelte"
 
 </script>
